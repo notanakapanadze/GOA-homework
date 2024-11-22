@@ -1,0 +1,65 @@
+
+body {
+    padding: 0;
+    background-color: red;
+    color: black;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+
+
+.left {
+    width: 25%;
+    background-color: #e6f7ff;
+    padding: 15px;
+   
+}
+
+.left h2 {
+    text-align: left;
+}
+
+.left ul {
+    padding-left: 20px;
+}
+
+.center {
+    width: 45%;
+    background-color: white;
+   
+    text-align: center;
+}
+
+.center img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.right {
+    width: 250px;
+    background-color:white;
+    padding: 15px;
+   
+}
+
+.right h2 {
+    text-align: right;
+}
+
+.right ol {
+    padding-left: 20px;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+    size: 10px 15px;
+}
+
