@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.vandamme {
+    font-family: 'Courier New', monospace;
+    color: #FF5733; /* HEX */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(255, 87, 51, 0.1); /* RGB */
+    padding: 15px;
+    border: 2px solid #FF5733;
+}
+
+.bruce-lee {
+    font-family: 'Times New Roman', serif;
+    color: hsl(120, 70%, 40%); /* HSL */
+    font-style: italic;
+    font-weight: 600;
+    background-color: rgba(0, 128, 0, 0.1); /* RGB */
+    padding: 15px;
+    border: 2px solid hsl(120, 70%, 40%);
+}
+
+.jackie-chan {
+    font-family: 'Verdana', sans-serif;
+    color: rgb(255, 215, 0); /* RGB */
+    font-weight: bold;
+    background-color: rgba(255, 215, 0, 0.1); /* RGB */
+    padding: 15px;
+    border: 2px dashed rgb(255, 215, 0);
+}
+
+.jet-lee {
+    font-family: 'Georgia', serif;
+    color: #007ACC; /* HEX */
+    font-weight: lighter;
+    background-color: rgba(0, 122, 204, 0.1); /* RGB */
+    padding: 15px;
+    border: 2px dotted #007ACC;
+}
+
+.stallone {
+    font-family: 'Impact', sans-serif;
+    color: hsl(0, 100%, 50%); /* HSL */
+    font-weight: 900;
+    text-transform: capitalize;
+    background-color: rgba(255, 0, 0, 0.1); /* RGB */
+    padding: 15px;
+    border: 3px groove hsl(0, 100%, 50%);
+}

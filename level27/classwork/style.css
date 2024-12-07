@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(34, 34, 34); 
+  }
+  
+
+  #ragaca {
+    background-color: rgb(202, 73, 152);
+    border: 2px solid #6C3483;
+    border-radius: 10px;
+  }
+  
+
+  .textClass {
+    font-size: 28px; 
+    color: hsla(240, 100%, 75%, 0.9); 
+    font-weight: bold;
+    text-align: center;
+  }
+  
