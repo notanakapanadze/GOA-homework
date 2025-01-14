@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Creatures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Sea Creatures</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#types">Types of Sea Creatures</a></li>
+            <li><a href="#research">Research Papers</a></li>
+            <li><a href="#quiz">Interactive Quiz</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="types">
+            <h2>Types of Sea Creatures</h2>
+            <div class="creature">
+                <h3>Fish</h3>
+                <p>Fish are aquatic animals that have gills and fins.</p>
+            </div>
+            <div class="creature">
+                <h3>Sea Mammals</h3>
+                <p>These include whales, dolphins, and seals, which are warm-blooded.</p>
+            </div>
+            <div class="creature">
+                <h3>Crustaceans</h3>
+                <p>Crustaceans have a hard exoskeleton and include crabs and lobsters.</p>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>Research Papers</h2>
+            <ul>
+                <li>The Role of Fish in Marine Ecosystems</li>
+                <li>Impact of Pollution on Sea Mammals</li>
+                <li>Conservation of Marine Biodiversity</li>
+            </ul>
+        </section>
+
+        <section id="quiz">
+            <h2>Interactive Quiz</h2>
+            <button onclick="startQuiz()">Start Quiz</button>
+            <div id="quiz-container" style="display: none;">
+                <p id="question"></p>
+                <button onclick="checkAnswer('A')">A</button>
+                <button onclick="checkAnswer('B')">B</button>
+                <p id="result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sea Creatures Knowledge</p>
+    </footer>
+
+
+</body>
+</html>
